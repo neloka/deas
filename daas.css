@@ -706,6 +706,7 @@ p.flats2{
     }
     p.design{
         width: 380px;
+        font-size: 22px;
     }
     p.design1{
         width: 350px;
@@ -718,7 +719,7 @@ p.flats2{
     }
     .flow1{
         flex-direction: column;
-        width: 80%;
+        /* width: 80%; */
         /* margin: auto; */
     }
     .picsection{
