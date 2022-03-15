@@ -41,6 +41,7 @@ header{
     background: white;
     box-shadow: 0px 8px 15px rgba(0, 104, 255, 0.09);
     display: inline;
+   
 }
  .navbar a{
     text-decoration: none;
@@ -669,7 +670,10 @@ p.flats2{
         margin: auto;
     }
     header{
-        display: none;
+        visibility: hidden;
+    }
+    .navbar{
+        width: auto;
     }
     .section1{
         width: 100%;
@@ -681,6 +685,9 @@ p.flats2{
         height: 450px;
         padding-top: 100px;
     
+    }
+    .logo{
+        visibility: visible;
     }
     .subscribe p{
         font-weight: bold;
@@ -719,8 +726,13 @@ p.flats2{
     }
     .flow1{
         flex-direction: column;
-        /* width: 80%; */
-        /* margin: auto; */
+        width: auto;
+    }
+    .flowdesc1{
+        width: 320px;
+    }
+    .descy1{
+        width: 320px;
     }
     .picsection{
         flex-direction: column;
