@@ -674,6 +674,7 @@ p.flats2{
     }
     .navbar{
         width: auto;
+        
     }
     .section1{
         width: 100%;
@@ -792,7 +793,5 @@ p.flats2{
         font-size: 13px;
         line-height: 40px;
     }
-    .section7{
-        /* min-height: 120vh; */
-    }
+   
 }
